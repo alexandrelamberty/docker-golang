@@ -24,6 +24,6 @@ jobs:
         with:
           go-version: '1.21.x'
       - name: Build
-        run: go build -v ./...
+        run: go build -v ./cmd
       - name: Test with the Go CLI
         run: go test
